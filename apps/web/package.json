@@ -1,0 +1,19 @@
+{
+  "name": "@tcpa-auditor/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "dev": "echo \"placeholder -- real Shopify app scaffold lands in Task 0.2\""
+  },
+  "dependencies": {
+    "@tcpa-auditor/db": "workspace:*",
+    "@tcpa-auditor/rule-engine": "workspace:*",
+    "@tcpa-auditor/integrations": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

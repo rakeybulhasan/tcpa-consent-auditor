@@ -1,0 +1,14 @@
+{
+  "name": "@tcpa-auditor/admin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "dev": "echo \"placeholder -- real AI Lab Rule Administrator console lands in Task 5.1\""
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
