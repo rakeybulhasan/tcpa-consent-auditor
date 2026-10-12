@@ -6,7 +6,7 @@ export default tseslint.config(
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    ignores: ["**/dist/**", "**/.turbo/**", "**/node_modules/**"],
+    ignores: ["**/dist/**", "**/build/**", "**/.react-router/**", "**/.turbo/**", "**/node_modules/**"],
   },
   {
     files: ["**/*.ts", "**/*.tsx"],
